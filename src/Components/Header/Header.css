@@ -1,0 +1,71 @@
+.logo {
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.nav-list {
+  font-size: 1.3rem;
+  padding-left: 200px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 900;
+}
+
+.nav-item {
+    padding-left: 50px;
+    
+}
+
+
+.navbar {
+    box-shadow: 0px 12px 10px ;
+    margin-top: -20px;
+   
+}
+
+
+.location-icon {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.icons {
+    font-size: 1rem;
+    display: flex;
+    
+}
+/* .background-top {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/860/710/non_2x/seamless-gold-abstract-background-with-snowflakes-lights-and-halos-illustration-horizontally-and-vertically-repeatable-free-vector.jpg");
+    background-size: auto;
+} */
+
+
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: black;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+   width: 100%;
+   transition: width .3s;
+}
+
+
+.location-icon {
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-image: url("C:\Users\drshu\OneDrive\Desktop\salon2\public\materijal\tapet.jpg");
+    background-size: auto;
+}

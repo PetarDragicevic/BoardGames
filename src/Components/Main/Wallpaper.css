@@ -1,0 +1,19 @@
+.text {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700; 
+  opacity: 2;
+  padding-bottom: 50px;
+  
+}
+
+.lead {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.cover img {
+  padding-bottom: 0px;
+  margin-top:100px;
+}
+
+
