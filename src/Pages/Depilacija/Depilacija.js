@@ -1,15 +1,17 @@
 import React from "react";
-import "./Nokti.css";
+import "./Depilacija.css";
 
-function Nokti() {
+
+
+function Depilacija() {
   return (
     <div>
       <img
         className="img-thumbnail img-fluid wallpaper"
-        src="materijal/wallpapers/nokti-wallpaper.jpg"
+        src="materijal/wallpapers/depilacija-wallpaper.jpg"
       />
     </div>
   );
 }
 
-export default Nokti;
+export default Depilacija;

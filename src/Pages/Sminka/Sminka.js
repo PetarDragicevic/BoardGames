@@ -1,15 +1,15 @@
 import React from "react";
-import "./Nokti.css";
+import "./Sminka.css";
 
-function Nokti() {
+function Sminka() {
   return (
     <div>
       <img
         className="img-thumbnail img-fluid wallpaper"
-        src="materijal/wallpapers/nokti-wallpaper.jpg"
+        src="materijal/wallpapers/sminka-wallpaper.jpg"
       />
     </div>
   );
 }
 
-export default Nokti;
+export default Sminka;

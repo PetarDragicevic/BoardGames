@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    routeId: "/Nadogradnja trepavica",
+    routeId: "/nadogradnja",
     img: "materijal/Nadogradnja trepavica/nadogradnja.jpg",
     title: "Nadogradnja Trepavia",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -9,7 +9,7 @@ export default [
    },
   {
     id: 2,
-    routeId: "/vosak",
+    routeId: "/depilacija",
     img: "materijal/vosak/vosak1.png",
     title: "Depilacija Voskom",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",

@@ -1,15 +1,16 @@
 import React from "react";
-import "./Nokti.css";
+import "./Laser.css";
 
-function Nokti() {
+
+function Laser() {
   return (
     <div>
       <img
         className="img-thumbnail img-fluid wallpaper"
-        src="materijal/wallpapers/nokti-wallpaper.jpg"
+        src="materijal/wallpapers/laser-wallpaper.jpg"
       />
     </div>
   );
 }
 
-export default Nokti;
+export default Laser;

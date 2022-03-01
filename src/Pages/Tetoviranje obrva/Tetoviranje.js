@@ -1,15 +1,15 @@
 import React from "react";
-import "./Nokti.css";
+import "./Tetoviranje.css";
 
-function Nokti() {
+function Tetoviranje() {
   return (
     <div>
       <img
         className="img-thumbnail img-fluid wallpaper"
-        src="materijal/wallpapers/nokti-wallpaper.jpg"
+        src="materijal/wallpapers/tetoviranje-wallpaper.jpg"
       />
     </div>
   );
 }
 
-export default Nokti;
+export default Tetoviranje;

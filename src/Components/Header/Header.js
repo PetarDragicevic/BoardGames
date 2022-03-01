@@ -1,10 +1,25 @@
 import React from "react";
 import "./Header.css";
+import { Link as LinkTo } from "react-router-dom";
 import { Link, Link as Scroll } from "react-scroll";
 
 function Header() {
   const linkStyle = {
     cursor: "pointer",
+    textDecoration: "none",
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  const scrollToBottom = () => {
+    window.scrollTo({
+      bottom: 0,
+      behavior: "smooth",
+    });
   };
   return (
     <div className="sticky">
@@ -30,6 +45,7 @@ function Header() {
       <nav className=" navbar navbar-expand-lg navbar-light  ">
         <div className="container-fluid">
           <img
+            onClick={scrollToTop}
             className="img-thumbnail img-fluid logo"
             src="materijal/logo.png"
           />
@@ -50,12 +66,17 @@ function Header() {
             id="navbarNav"
           >
             <ul className="navbar-nav nav-list">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
-                  NASLOVNA
-                </a>
-              </li>
-
+              <LinkTo style={linkStyle} to="/">
+                <li className="nav-item">
+                  <p
+                    onClick={scrollToTop}
+                    className="nav-link active pera"
+                    aria-current="page"
+                  >
+                    NASLOVNA
+                  </p>
+                </li>
+              </LinkTo>
               {/* DROPDOWN TOGGLE //////////////////////////////////////////////////////////////////////////////////*/}
               <li className="nav-item dropdown">
                 <a
@@ -68,40 +89,40 @@ function Header() {
                 >
                   USLUGE
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="/nokti">
-                    Manikir
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Depilacija
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Laser
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Nadogradnja Trepavica
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Sminka
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Tetoviranje Obrva
-                  </a>
-                </li>
-              </ul>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a className="dropdown-item" href="/nokti">
+                      Manikir
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="depilacija">
+                      Depilacija
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="laser">
+                      Laser
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="nadogradnja">
+                      Nadogradnja Trepavica
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="sminka">
+                      Sminka
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="tetoviranje">
+                      Tetoviranje Obrva
+                    </a>
+                  </li>
+                </ul>
               </li>
-             {/* DROPDOWN TOGGLE //////////////////////////////////////////////////////////////////////////////////*/}
+              {/* DROPDOWN TOGGLE //////////////////////////////////////////////////////////////////////////////////*/}
               <li className="nav-item">
                 <a className="nav-link active" href="/cenovnik">
                   CENOVNIK
@@ -118,7 +139,7 @@ function Header() {
                   to={"Footer"}
                   style={linkStyle}
                   smooth={true}
-                  duration={400}
+                  duration={100}
                 >
                   KONTAKT
                 </Link>

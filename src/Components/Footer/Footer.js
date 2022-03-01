@@ -36,7 +36,7 @@ function Footer() {
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Usluge</h6>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="/laser" className="text-reset">
                     Lasersko uklanjanje sala
                   </a>
                 </p>
@@ -46,12 +46,12 @@ function Footer() {
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="depilacija" className="text-reset">
                     Depilacija voskom
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="sminka" className="text-reset">
                     Sminka
                   </a>
                 </p>
@@ -60,17 +60,17 @@ function Footer() {
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4"></h6>
                 <p>
-                  <a href="#!" className="text-reset">
-                    Nokti
+                  <a href="nokti" className="text-reset">
+                    Manikir
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="tetoviranje" className="text-reset">
                     Tetoviranje obrva
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="nadogradnja" className="text-reset">
                     Nadogradnja trepavica
                   </a>
                 </p>
@@ -85,7 +85,7 @@ function Footer() {
                 </p>
                 <p>
                   <i className="fas fa-envelope me-3"></i>
-                  diamon@diamon.com
+                  diamond@diamond.com
                 </p>
                 <p>
                   <i className="fas fa-phone me-3"></i> + 01 234 567 88
