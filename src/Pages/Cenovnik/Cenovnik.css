@@ -1,0 +1,24 @@
+.conteiner {
+    padding-top: 20px;   
+}
+.conteiner h1 {
+    text-align: center;
+}
+.wallpaper {
+    width: 100%;
+}
+
+.table {
+    margin: auto;
+}
+
+.table-head  {
+    background-color: #ddb224;
+    font-size: 1.5rem;
+}
+
+.table-body  {
+    font-size: 1.2rem;
+}
+
+

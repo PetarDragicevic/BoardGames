@@ -32,11 +32,3 @@ function ServicesCard() {
 
 export default ServicesCard;
 
-
-    // img1: "materijal/vosak/vosak.png",
-    // img2: "materijal/vosak/vosak1.png",
-    // img3: "materijal/vosak/vosak2.png",
-    // img4: "materijal/vosak/vosak3.png",
-    // title: "Nadogradnja Trepavia",
-    // text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
-    // button

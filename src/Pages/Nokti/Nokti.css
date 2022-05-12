@@ -1,3 +1,15 @@
-.wallpaper {
-    margin-top:120px;
+.img-fluid {
+    padding-top: 70px;
+}
+
+.conteiner {
+    margin: auto 40px;
+}
+
+
+.title {
+    margin-bottom: 30px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    color: #ddb224;
 }

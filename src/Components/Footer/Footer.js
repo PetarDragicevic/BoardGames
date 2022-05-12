@@ -28,37 +28,36 @@ function Footer() {
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3"></i>DIAMOND
+                  <i className="fas fa-gem me-3"></i>ENA Beauty Studio
                 </h6>
-                <p>Neka lepa rec on nama i uslugama koje prizamo</p>
+                <p>Random text about us</p>
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Usluge</h6>
+                <h2 className="text-uppercase fw-bold mb-4">Usluge</h2>
                 <p>
                   <a href="/laser" className="text-reset">
-                    Lasersko uklanjanje sala
+                    Tretmani Tela
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
-                    Lasersko depiliranje
+                  <a href="epilacija" className="text-reset">
+                    Epilacija
                   </a>
                 </p>
                 <p>
                   <a href="depilacija" className="text-reset">
-                    Depilacija voskom
+                    Depilacija
                   </a>
                 </p>
                 <p>
                   <a href="sminka" className="text-reset">
-                    Sminka
+                  Šminka
                   </a>
                 </p>
               </div>
 
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4"></h6>
                 <p>
                   <a href="nokti" className="text-reset">
                     Manikir
@@ -66,26 +65,26 @@ function Footer() {
                 </p>
                 <p>
                   <a href="tetoviranje" className="text-reset">
-                    Tetoviranje obrva
+                    Trajna Šminka
                   </a>
                 </p>
                 <p>
                   <a href="nadogradnja" className="text-reset">
-                    Nadogradnja trepavica
+                    Svilene Trepavice
                   </a>
                 </p>
               </div>
 
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Kontakt</h6>
+                <h2 className="text-uppercase fw-bold mb-4">Kontakt</h2>
                 <p>
                 <a className="text-reset"  href="https://www.google.com/maps/dir//U%C4%8Ditelj+Tasina+14,+Ni%C5%A1/@43.3153012,21.8953993,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4755b0b031c6ddc1:0x30d52252e1a11a6f!2m2!1d21.8965462!2d43.315833?hl=sr"
           target="_blank">
-                  <i className="fas fa-home me-3"></i> Ucitelj Tasina 14a Nis</a>
+                  <i className="fas fa-home me-3"></i> Učitelj Tasina 14a Niš</a>
                 </p>
                 <p>
                   <i className="fas fa-envelope me-3"></i>
-                  diamond@diamond.com
+                  ena@ena.com
                 </p>
                 <p>
                   <i className="fas fa-phone me-3"></i> + 01 234 567 88
@@ -98,12 +97,7 @@ function Footer() {
           </div>
         </section>
 
-        <div className="text-center p-4">
-          © 2022 Copyright:
-          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-            Petar Dragicevic
-          </a>
-        </div>
+      
       </footer>
     </div>
   );

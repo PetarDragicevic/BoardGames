@@ -15,41 +15,16 @@ function Header() {
       behavior: "smooth",
     });
   };
-  const scrollToBottom = () => {
-    window.scrollTo({
-      bottom: 0,
-      behavior: "smooth",
-    });
-  };
+
   return (
     <div className="sticky">
-      <div className="icons background-top">
-        <a
-          href="https://www.google.com/maps/dir//U%C4%8Ditelj+Tasina+14,+Ni%C5%A1/@43.3153012,21.8953993,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4755b0b031c6ddc1:0x30d52252e1a11a6f!2m2!1d21.8965462!2d43.315833?hl=sr"
-          target="_blank"
-          className="me-4 text-reset location-icon"
-        >
-          <i className="bi bi-geo-alt"></i>Učitelj Tasina 14a Niš
-        </a>
-        <a href="" className="me-4 text-reset">
-          <i className="bi bi-instagram"></i>
-        </a>
-        <a href="" className="me-4 text-reset">
-          <i className="bi bi-facebook face"></i>
-        </a>
-        <a href="" className="me-4 text-reset">
-          <i className="bi bi-youtube"></i>
-        </a>
-      </div>
-
       <nav className=" navbar navbar-expand-lg navbar-light  ">
         <div className="container-fluid">
-          <img
-            onClick={scrollToTop}
-            className="img-thumbnail img-fluid logo"
-            src="materijal/logo.png"
-          />
-
+          <h1 className="nav-item logo" style={linkStyle} onClick={scrollToTop}>
+            <a href="/" className="text-reset">
+              Ena
+            </a>
+          </h1>
           <button
             className="navbar-toggler"
             type="button"
@@ -66,18 +41,16 @@ function Header() {
             id="navbarNav"
           >
             <ul className="navbar-nav nav-list">
-              <LinkTo style={linkStyle} to="/">
                 <li className="nav-item">
-                  <p
+                  <a
                     onClick={scrollToTop}
-                    className="nav-link active pera"
+                    className="nav-link active"
                     aria-current="page"
+                    href="/"
                   >
                     NASLOVNA
-                  </p>
+                  </a>
                 </li>
-              </LinkTo>
-              {/* DROPDOWN TOGGLE //////////////////////////////////////////////////////////////////////////////////*/}
               <li className="nav-item dropdown">
                 <a
                   className="nav-link active dropdown-toggler"
@@ -102,27 +75,31 @@ function Header() {
                   </li>
                   <li>
                     <a className="dropdown-item" href="laser">
-                      Laser
+                      Tretmani tela
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="nadogradnja">
-                      Nadogradnja Trepavica
+                      Svilene Trepavica
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="sminka">
-                      Sminka
+                      Šminka
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="tetoviranje">
-                      Tetoviranje Obrva
+                      Trajna Šminka
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="epilacija">
+                      Epilacija
                     </a>
                   </li>
                 </ul>
               </li>
-              {/* DROPDOWN TOGGLE //////////////////////////////////////////////////////////////////////////////////*/}
               <li className="nav-item">
                 <a className="nav-link active" href="/cenovnik">
                   CENOVNIK
@@ -145,7 +122,7 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="/">
                   PRIJAVA
                 </a>
               </li>

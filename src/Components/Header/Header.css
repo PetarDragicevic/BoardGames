@@ -1,7 +1,4 @@
-.logo {
-  height: 100px;
-  border-radius: 50%;
-}
+
 .nav-list {
   font-size: 1.3rem;
   padding-left: 200px;
@@ -10,13 +7,11 @@
 }
 
 .nav-item {
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-top: 15px;
+  
 }
 
-.navbar {
-  box-shadow: 0px 12px 10px;
-  margin-top: -30px;
-}
 
 .location-icon {
   text-align: center;
@@ -26,20 +21,13 @@
   font-weight: 700;
 }
 
-.icons {
-  font-size: 1rem;
-  display: flex;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
 .nav-link::after,
 .dropdown-item::after {
   content: "";
   display: block;
   width: 0;
   height: 5px;
-  background: #00FFCB;
+  background: #ddb224;
   transition: width 0.3s;
 }
 
@@ -58,10 +46,11 @@
   width: 100%;
   top: 0;
   z-index: 1;
-  background-image: url("C:\Users\drshu\OneDrive\Desktop\salon2\public\materijal\tapet.jpg");
+  background-image: url("/public/materijal/tapet.jpg");
   background-size: auto;
 }
 
 .dropdown-menu {
   font-size: 1.5rem;
 }
+

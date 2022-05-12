@@ -10,6 +10,7 @@ import Sminka from "./Pages/Sminka/Sminka";
 import Tetoviranje from "./Pages/Tetoviranje obrva/Tetoviranje";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
+import Epilacija from "./Pages/Laserska epilacija/Epilacija";
 
 function HandlingRoute() {
   return (
@@ -24,6 +25,7 @@ function HandlingRoute() {
         <Route path="/nadogradnja" element={<Nadogradnja />} />
         <Route path="/sminka" element={<Sminka />} />
         <Route path="/tetoviranje" element={<Tetoviranje />} />
+        <Route path="/epilacija" element={<Epilacija />} />
       </Routes>
       <Footer/>
     </Router>

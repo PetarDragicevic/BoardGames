@@ -1,17 +1,22 @@
 
 
 .card {
-  width: 18rem;
+  width: 23rem;
   border: none;
   align-items: center;
   margin-top: 70px;
   z-index: 0;
 }
 
+.card-size {
+  width: 16rem;
+  overflow: hidden;
+}
 .card img {
   border-radius: 50%;
-  width: 15rem;
-  border: solid 4px #00FFCB;
+  width: 16rem;
+  height: auto;
+  border: solid 4px #ddb224;
 }
 .card img:hover {
   transition-duration: 0.5s;
@@ -24,5 +29,7 @@
 }
 
 .card-title {
-  color: #00FFCB;
+  color: #ddb224;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
